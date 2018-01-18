@@ -30,11 +30,14 @@ Caddy is honestly the best thing that's probably ever happened to me. It cut dow
 
 Installation is a breeze, all you need to do is type ```curl https://getcaddy.com/ | bash``` and you're done!
 
-To add plugin support for such things as AWS and Git hooks, you must instead go to https://caddyserver.com/download and add your requested plugins (you can still use curl!). 
+To add plugin support for such things as AWS and Git hooks, you must instead go to https://caddyserver.com/download and add 
+your requested plugins (you can still use curl!). 
+
+Once installed, I find that storing all Caddy-related files in ```/etc/caddy``` is the best practice. 
 
 #### Configuration
 
-Configuration is done in what's known as a Caddyfile, and follows NGINX-like syntax. My full configuration is found here! 
+Configuration is done in what's known as a Caddyfile, and follows NGINX-like syntax. My full configuration is found [here!]() 
 
 #### Deployment
 
@@ -53,11 +56,11 @@ Since this is a static webpage, installation is covered in my Caddyfile!
 
 ### The Lounge
 
-(The Lounge)[https://thelounge.github.io] is a beautifully made, web-based IRC client / bouncer. I had used WeeChat before to talk to my coworkers who refused to use Slack, but gave up after missing out on entire, relatively important conversations. The Lounge prevents this by constantly having a session attached to the IRC server, so I can close my browser without having to log out of IRC.
+[The Lounge](https://thelounge.github.io) is a beautifully made, web-based IRC client / bouncer. I had used WeeChat before to talk to my coworkers who refused to use Slack, but gave up after missing out on entire, relatively important conversations. The Lounge prevents this by constantly having a session attached to the IRC server, so I can close my browser without having to log out of IRC.
 
 #### Installation
 
-This requires Docker to use, and once installed is pretty easy!
+This requires Docker to use, and once installed is pretty easy to setup.
 
 ```bash
 $ docker pull thelounge/lounge
