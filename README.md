@@ -14,7 +14,7 @@ I'm currently using one of my family member's old desktop computers as a server,
 
 Here's screenfetch result!
 
-![Image Goes Here]()
+![](./screenshot.png)
 
 ## What am I running on my homelab?
 
