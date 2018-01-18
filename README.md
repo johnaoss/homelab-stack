@@ -37,7 +37,7 @@ Once installed, I find that storing all Caddy-related files in ```/etc/caddy``` 
 
 #### Configuration
 
-Configuration is done in what's known as a Caddyfile, and follows NGINX-like syntax. My full configuration is found [here!]() 
+Configuration is done in what's known as a Caddyfile, and follows NGINX-like syntax. My full configuration is found [here!](./Caddyfile) 
 
 #### Deployment
 
